@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  animation: fadeIn ease 3s;
+  background-image: linear-gradient(rgb(255, 255, 255), #a9b847);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-attachment: fixed;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+nav {
+  background-color: beige;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 500px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: black;
+}
+
+nav a:hover {
+  color: red;
+}
+
+hr {
+  border-color: beige;
+  border: solid;
+  width: 99%;
+}
+
+footer {
+  background-color: beige;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.splash h1 {
+  font-family: "Baskervville SC", serif;
+  font-size: 15px;
+  color: #a6b25a;
+  margin: 10px;
+}
+
+.splash img {
+  border: solid;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.splash p {
+  margin: 10px;
+  padding-right: 300px;
+}
+
+h2 {
+  font-family: "Anton SC", sans-serif;
+  font-size: 20px;
+  color: #a6b25a;
+  margin: 10px;
+}
+
+.education-p {
+  margin: 10px;
+  padding-right: 350px;
+}
+
+section ul {
+  list-style-type: square;
+  font-style: italic;
+}
+
+.honors {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-row-gap: 10px;
+  margin: 10px;
+}
+
+.honors dt {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.exp {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-row-gap: 10px;
+    margin: 10px;
+}
+
+.exp dt {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+section a {
+  color: black;
+  text-decoration: none;
+}
+
+section a:hover {
+  color: red;
+}
+
+.three-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+}
+
+.card {
+    margin: 10px;
+    box-shadow: 5px 0px 5px black;
+    width: 350px;
+    border: solid;
+}
+
+.card:hover {
+    transform: rotate(5deg);
+}
+
+.card #gallery {
+    padding-left: 20px;
+}
+
+.card li {
+    margin-right: 15px;
+}
+
+.card h3 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 1210px;
+}
+
+.one-col textarea {
+    resize: none;
+}
+
+.label {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.submit {
+    border-radius: 10px;
+    border: thin;
+    margin: 10px;
+    width: 100%;
+}
+
+.submit:hover {
+    background-color: blue;
+    color: white;
+}
+
+.name-add {
+    margin: 10px;
+}
+
+.input-form {
+    margin: 10px;
+}
